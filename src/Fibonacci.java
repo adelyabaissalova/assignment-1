@@ -18,6 +18,6 @@ public class Fibonacci {
         int result = fib(n);
 
         System.out.println("fib(" + n + ") = " + result);
-        System.out.println("Количество вызовов: " + callCount);
+        System.out.println("Number of calls: " + callCount);
     }
 }
