@@ -14,7 +14,8 @@ public class Fibonacci {
     public static void main(String[] args) {
         int n = 10;
 
-
+        callCount = 0;
+        int result = fib(n);
 
         System.out.println("fib(" + n + ") = " + result);
         System.out.println("Количество вызовов: " + callCount);
