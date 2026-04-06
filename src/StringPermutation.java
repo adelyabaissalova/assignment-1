@@ -24,5 +24,6 @@ public class StringPermutation {
         System.out.print("Enter string: ");
         String s = sc.nextLine();
         printPermutations(s);
+
     }
 }
