@@ -11,7 +11,6 @@ public class BinaryDecimal {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter binary: ");
         String s = sc.nextLine();
-        System.out.println("Decimal: " + bin2dec(s));
-        sc.close();
+        System.out.println( bin2dec(s));
     }
 }

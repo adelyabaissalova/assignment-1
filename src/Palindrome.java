@@ -12,6 +12,6 @@ public class Palindrome {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter string: ");
         String s = sc.nextLine();
-        System.out.println(s + " is palindrome: " + isPalindrome(s));
+        System.out.println( isPalindrome(s));
     }
 }

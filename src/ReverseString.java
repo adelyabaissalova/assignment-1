@@ -11,6 +11,6 @@ public class ReverseString {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter string: ");
         String s = sc.nextLine();
-        System.out.println("Reversed: " + reverse(s));
+        System.out.println(reverse(s));
     }
 }

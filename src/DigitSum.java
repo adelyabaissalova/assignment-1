@@ -11,6 +11,6 @@ public class DigitSum {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number: ");
         int n = sc.nextInt();
-        System.out.println("Sum of digits: " + sum(n));
+        System.out.println("Sum of digits: " + sum(n)) ;
     }
 }

@@ -12,6 +12,6 @@ public class DecimalBinary {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number: ");
         int n = sc.nextInt();
-        System.out.println("Binary: " + dec2bin(n));
+        System.out.println(  dec2bin(n));
     }
 }
